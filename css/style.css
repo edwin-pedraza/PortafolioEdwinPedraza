@@ -227,18 +227,28 @@
 
     /* ----hero----- */
 
+
     .hero{
       position: relative;
       /* width: 100vw; */
       background:var(--background);
       font-family: var(--font2);
     }
+    .containet_balls{
+      height: 100%;
+      top: 0;
+      left: 10%;
+      right: 10%;
+
+      position: absolute;
+    }
     .ball{
       z-index: 0;
+      /* display: none; */
     }
 
     .home{
-      background-size: cover;
+      /* background-size: cover; */
       height: 100vh;
       color: var(--colortext1);
       display: flex;
