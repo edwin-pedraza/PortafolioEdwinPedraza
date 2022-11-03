@@ -383,7 +383,7 @@
     .container-interests{
       display: flex;
       flex-wrap: wrap;
-      width: 90%;
+      width: 100%;
       justify-content: space-between;
       margin-top: 2.5em;
       margin-bottom: 3rem;
