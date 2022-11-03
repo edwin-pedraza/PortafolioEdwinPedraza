@@ -130,8 +130,17 @@
 
      /* ------------footer------------- */
 
+     .footer{
+      padding-bottom: .1em;
+     }
+     .footer__container{
+      width: 100%;
+      padding-top: .5em;
+      flex-direction: column;
+     }
      .footer__container H2{
       font-size: 1.8em;
+      padding: 0;
     }
 
      .footer__container H5{
@@ -140,6 +149,7 @@
 
      .footer__social__network{
       width: 100px;
+      margin-top: 0;
      }
 
      .footer__social__network .social a{
