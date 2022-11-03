@@ -229,7 +229,7 @@
 
     .hero{
       position: relative;
-      width: 100vw;
+      /* width: 100vw; */
       background:var(--background);
       font-family: var(--font2);
     }
@@ -318,7 +318,7 @@
 
     .about{
       position: relative;
-      width: 100vw;
+      width: 100%;
       padding-top: 6rem;
       
       background:var(--background2);
@@ -762,9 +762,6 @@
       font-size: 1em;
       font-family: var(--font2);
 
-    }
-    .footer__container H5, .footer__social__network{
-      font-size: 1.5em;
     }
     .footer__social__network{
       display: flex;

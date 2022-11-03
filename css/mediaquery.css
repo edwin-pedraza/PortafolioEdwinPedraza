@@ -1,5 +1,9 @@
 @media screen and (max-width:910px){
 
+    .container {
+      width: 95%;
+        
+    }
 
       /* ----hero----- */
     .content-banner{
@@ -16,14 +20,14 @@
 
 
     /* ----about----- */
-    /* .container-about p{
+    .container-about p{
 
     font-size: 1rem;
 
-    } */
+    }
 
     .container-about  p span{
-    font-size: 1rem;
+    font-size: 1.2rem;
     }
 
     /* ------------interest------------- */
@@ -92,13 +96,15 @@
         font-size: 16px;
     }
 
-    .container-interests{
+     /* ------------about------------- */
 
-        justify-content: center;
+     .interest{
+      width: 80px;
+      height: 80px;
+     }
 
-          
-      }
 
+       /* ------------skills------------- */
     .skills_row{
         flex-direction: column;
         align-items: center;
@@ -121,6 +127,25 @@
       width: 80%;
       height: 300px;
     }
+
+     /* ------------footer------------- */
+
+     .footer__container H2{
+      font-size: 1.8em;
+    }
+
+     .footer__container H5{
+      font-size: 1em;
+    }
+
+     .footer__social__network{
+      width: 100px;
+     }
+
+     .footer__social__network .social a{
+      width: 40px;
+      height: 40px;
+     }
   }
 
 

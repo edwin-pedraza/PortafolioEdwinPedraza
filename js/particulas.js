@@ -14,13 +14,13 @@ for (let i = 0; i < numBalls; i++) {
     ball.setAttribute('src', imgrand)
     // ball.style.backgroundImage = imgrand
     // ball.style.backgroundRepeat = "no-repeat"
-    ball.style.left = `${Math.floor(Math.random() * 100)}vw`
+    ball.style.left = `${Math.floor(Math.random() * 95)}vw`
     ball.style.top = `${Math.floor(Math.random() * 100)}vh`
     ball.style.transform = `scale(${Math.random()})`
     ball.style.width = `${Math.random() * (3 - 1) + 1}em`
     ball.style.height = ball.style.width
     balls.push(ball)
-    document.getElementById("body").append(ball)
+    document.getElementById("hero").append(ball)
 }
 
 balls.forEach((el,i) => {
