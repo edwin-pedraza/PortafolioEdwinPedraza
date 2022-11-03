@@ -4,6 +4,9 @@ const imgurl = ["./img/imgpart/code.svg", "./img/imgpart/code2.svg","./img/imgpa
 const numBalls = 100
 const balls = []
 
+const hero = document.getElementById("hero")
+const heroWidth = hero.style.width
+
 for (let i = 0; i < numBalls; i++) {
     let ball = document.createElement("img")
     const imgrand = imgurl[Math.floor(Math.random() * imgurl.length)]
@@ -14,7 +17,7 @@ for (let i = 0; i < numBalls; i++) {
     ball.setAttribute('src', imgrand)
     // ball.style.backgroundImage = imgrand
     // ball.style.backgroundRepeat = "no-repeat"
-    ball.style.left = `${Math.floor(Math.random() * 95)}vw`
+    ball.style.left = `${Math.floor(Math.random() * 93)}vw`
     ball.style.top = `${Math.floor(Math.random() * 100)}vh`
     ball.style.transform = `scale(${Math.random()})`
     ball.style.width = `${Math.random() * (3 - 1) + 1}em`
@@ -25,7 +28,7 @@ for (let i = 0; i < numBalls; i++) {
 
 balls.forEach((el,i) => {
     let to = {
-        x: Math.random() * (i % 2 === 0? - 11 : 11),
+        x: Math.random() * (i % 2 === 0? - 10 : heroWidth),
         y: Math.random() * 10
     }
 
