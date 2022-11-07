@@ -61,7 +61,7 @@ body{
     height: 20em;
     margin-right: 10em;
     margin-top: 2em;
-    float: left;
+    /* float: left; */
     right: 0;
     /* background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%,rgba(0,0,0,0.05) 100%);  */
     background-color: #6e529d;

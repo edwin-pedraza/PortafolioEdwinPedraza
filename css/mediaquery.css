@@ -65,6 +65,9 @@
       display: block;
     }
   
+    .ball{
+      display: none;
+    }
     nav.responsive{
       display: block;
       position: absolute;
