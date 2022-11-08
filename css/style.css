@@ -11,10 +11,10 @@
 
     :root{
         --navcolor: #174D73;
-        --colortext1: #E8F9FD;
+        --colortext1: #bfc6c7;
         --background: linear-gradient(180deg, rgba(23,77,115,1) 32%, rgba(0,212,255,1) 100%);
         --background2: linear-gradient(0deg, rgba(23,77,115,1) 32%, rgba(0,212,255,1) 100%);
-        --color-primary: #344CB7;
+        --color-primary: #344cb7;
         --circule1:#6b79b783;
         --circule2: #A2D2FF;
         --color-secondary: #3b5e7a;
@@ -820,7 +820,8 @@
     
     .modal p {
       font-family: var(--font2);
-      font-size: 14px;
+      color: var(--colortext1);
+      font-size: 20px;
       text-align: justify;
       margin: 2rem 0;
     }
