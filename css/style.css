@@ -12,6 +12,7 @@
     :root{
         --navcolor: #174D73;
         --colortext1: #bfc6c7;
+        --colortext2: rgb(28, 23, 23);
         --background: linear-gradient(180deg, rgba(23,77,115,1) 32%, rgba(0,212,255,1) 100%);
         --background2: linear-gradient(0deg, rgba(23,77,115,1) 32%, rgba(0,212,255,1) 100%);
         --color-primary: #344cb7;
@@ -706,12 +707,14 @@
     }
 
     .portfolio_img a{
-      color: var(--colortext1);
+      color: var(--colortext2);
       text-decoration: none;
       font-weight: bold;
-      font-size: 15px;
+      
         
     }
+
+
     
     .portfolio_img .overlay  {
       position: absolute;
@@ -724,13 +727,27 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      text-align: center;
+      font-family: var(--font2);
       font-size: 10px;
       letter-spacing: 4px;
       line-height: 1rem;
-      /* z-index: -1; */
       transition: 1s;
       opacity: 0;
+    }
+
+    .portfolio_img a h3{
+      color: var(--color-secondary);
+      font-size: 30px;
+      margin-bottom: 2em;
+      text-align: center;
+      font-family: var(--font1);
+    }
+
+    .portfolio_img a p{
+  
+      margin: 1.2em;
+      text-align: justify;
+     
     }
 
     .portfolio_img:hover{
@@ -739,8 +756,8 @@
     .portfolio_img:hover .overlay {
       z-index: 10;
       opacity: .8;
-      font-size: 18px;
-      line-height: 3rem;
+      font-size: 16px;
+      line-height: 1.5rem;
 
     }
   
